@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MountainBucks Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f6f3;
+      --panel: #ffffff;
+      --text: #1f231f;
+      --muted: #62706a;
+      --line: rgba(0,0,0,.08);
+      --accent: #1f9d57;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101411;
+        --panel: #19201b;
+        --text: #f1f4f0;
+        --muted: #9fb0a6;
+        --line: rgba(255,255,255,.08);
+        --accent: #43c07e;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.04);
+    }
+    .brand-row { display: inline-flex; align-items: center; gap: 10px; margin: 0 0 16px; text-decoration: none; }
+    .brand-row .name { font-weight: 700; font-size: 1.02rem; color: var(--text); }
+    .meta a { color: var(--muted); } .meta a:hover { color: var(--text); }
+    h1 { margin: 0 0 8px; font-size: 2rem; line-height: 1.1; letter-spacing: -.03em; }
+    .subtitle { margin: 0 0 28px; color: var(--muted); font-size: 1rem; }
+    h2 { margin: 28px 0 12px; font-size: 1.1rem; }
+    p, li { margin: 0 0 12px; }
+    ul { margin: 0; padding-left: 20px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .95rem; }
+    .email { font-weight: 600; color: var(--text); word-break: break-word; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <a class="brand-row" href="../">
+        <svg viewBox="0 0 100 100" width="32" height="32" aria-hidden="true">
+          <path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#2E8659" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+          <path d="M64 24 L64 2" fill="none" stroke="#2E8659" stroke-width="6" stroke-linecap="round"/>
+          <path d="M64 2 L86 10 L64 18 Z" fill="#E64036"/>
+        </svg>
+        <span class="name">MountainBucks</span>
+      </a>
+      <h1>Support</h1>
+      <p class="subtitle">Help, feedback, and useful information about MountainBucks.</p>
+
+      <p>Need help with MountainBucks, want to report a problem, or send a suggestion? Write to us by email and we'll get back to you as soon as possible.</p>
+
+      <h2>Contact</h2>
+      <p class="email"><a href="mailto:mountainbucks@icloud.com">mountainbucks@icloud.com</a></p>
+
+      <h2>Frequently Asked Questions</h2>
+      <ul>
+        <li><strong>Where is my data stored?</strong> In your private iCloud (Apple CloudKit). MountainBucks has no servers and cannot read your data.</li>
+        <li><strong>Does it work offline?</strong> Yes. You can add and review everything offline; changes sync through iCloud the next time you're online.</li>
+        <li><strong>I changed device — is my data still there?</strong> Yes, as long as you sign in with the same Apple ID and iCloud is enabled for MountainBucks.</li>
+        <li><strong>How do shared expenses and Family work?</strong> Through Apple's iCloud sharing: only the people you invite can see the shared group, and the data never leaves iCloud.</li>
+        <li><strong>How do I manage or cancel my subscription?</strong> From your Apple ID settings on your device (Settings → your name → Subscriptions).</li>
+      </ul>
+
+      <h2>Privacy policy</h2>
+      <p>The privacy policy is available here: <a href="../privacy/">open privacy policy</a>.</p>
+
+      <div class="meta">
+        <p><strong>App:</strong> MountainBucks</p>
+        <p><strong>Support:</strong> <a href="mailto:mountainbucks@icloud.com">mountainbucks@icloud.com</a></p>
+        <p><a href="../">Home</a> · <a href="../privacy/">Privacy</a> · <a href="https://apps.apple.com/app/id6780041368">App Store</a></p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
