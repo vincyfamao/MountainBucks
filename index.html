@@ -3,244 +3,117 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MountainBucks — Climb your year</title>
-  <meta name="description" content="MountainBucks turns your money into a mountain to climb. See your balance as blocks, build a peak with every saving, reach your goals. Private by design — your data stays in your iCloud.">
+  <title>MountainBucks Privacy Policy</title>
   <style>
-    :root { color-scheme: light dark; --bg:#f4f6f3; --panel:#fff; --panel-2:#fbfcfa; --text:#1f231f; --muted:#62706a; --line:rgba(0,0,0,.08); --accent:#1f9d57; --gold:#c98a16; --red:#e64036; }
-    @media (prefers-color-scheme: dark) { :root { --bg:#101411; --panel:#19201b; --panel-2:#1f271f; --text:#f1f4f0; --muted:#9fb0a6; --line:rgba(255,255,255,.08); --accent:#43c07e; --gold:#e6b14a; } }
-    *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
-    .frame{max-width:1180px;margin:0 auto;padding:24px}
-    .section{border:1px solid var(--line);border-radius:28px;background:var(--panel);padding:30px;box-shadow:0 10px 30px rgba(0,0,0,.06);margin-top:24px}
-    .section:first-child{margin-top:0}
-    .brand-row{display:flex;align-items:center;gap:10px;margin:0 0 14px}
-    .brand-row .name{font-weight:700;font-size:1.05rem}
-    .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:32px;align-items:center}
-    h1{margin:0;font-size:3.6rem;line-height:1.04;letter-spacing:-.04em;max-width:12ch}
-    .lead{margin:18px 0 0;max-width:54ch;font-size:1.1rem;color:var(--muted)}
-    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
-    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 20px;border-radius:999px;text-decoration:none;font-weight:600;border:1px solid transparent}
-    .btn-primary{background:var(--accent);color:#fff} .btn-secondary{background:transparent;border-color:var(--line);color:var(--text)}
-    .tags{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;color:var(--muted);font-size:.92rem}
-    .tags b{color:var(--accent)}
-    .phone{margin:0 auto;display:block;max-width:300px;width:100%;filter:drop-shadow(0 18px 40px rgba(0,0,0,.18))}
-    h2{margin:0 0 8px;font-size:2.1rem;letter-spacing:-.03em} .section-lead{margin:0 0 22px;color:var(--muted);max-width:64ch;font-size:1.05rem}
-    .eyebrow{color:var(--accent);font-weight:700;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;margin:0 0 10px}
-    .cards{display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr))}
-    .feat{border:1px solid var(--line);border-radius:18px;background:var(--panel-2);padding:18px}
-    .feat .ico{font-size:1.5rem;line-height:1;margin-bottom:8px}
-    .feat h3{margin:0 0 6px;font-size:1.06rem} .feat p{margin:0;color:var(--muted);font-size:.97rem}
-    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:6px}
-    .step{border:1px solid var(--line);border-radius:18px;background:var(--panel-2);padding:20px}
-    .step .num{width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
-    .step h3{margin:0 0 6px;font-size:1.08rem} .step p{margin:0;color:var(--muted)}
-    .split{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center}
-    .legend{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:12px}
-    .legend li{display:flex;gap:12px;align-items:flex-start} .legend .dot{width:14px;height:14px;border-radius:4px;margin-top:5px;flex:none}
-    .legend b{display:block} .legend span{color:var(--muted);font-size:.97rem}
-    .icons{display:grid;grid-template-columns:repeat(8,1fr);gap:14px;margin-top:6px}
-    .icons figure{margin:0;text-align:center} .icons svg{width:100%;height:auto;border-radius:22%;display:block}
-    .icons figcaption{margin-top:8px;font-size:.82rem;color:var(--muted)}
-    .privacy{background:linear-gradient(180deg,color-mix(in oklab,var(--accent) 12%,var(--panel)),var(--panel))}
-    .faq{display:grid;gap:12px}
-    .faq details{border:1px solid var(--line);border-radius:16px;background:var(--panel-2);padding:4px 18px}
-    .faq summary{cursor:pointer;font-weight:600;padding:14px 0;list-style:none} .faq summary::-webkit-details-marker{display:none}
-    .faq summary::after{content:"+";float:right;color:var(--muted);font-weight:400} .faq details[open] summary::after{content:"–"}
-    .faq p{margin:0 0 16px;color:var(--muted)}
-    .cta-band{text-align:center;background:linear-gradient(180deg,color-mix(in oklab,var(--accent) 16%,transparent),transparent),var(--panel)}
-    .cta-band h2{font-size:2.4rem;max-width:18ch;margin:0 auto 8px} .cta-band p{color:var(--muted);max-width:48ch;margin:0 auto 22px}
-    .footer{margin-top:28px;padding-top:18px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:12px 18px;color:var(--muted);font-size:.95rem;align-items:center}
-    .footer a{color:var(--muted);text-decoration:none} .footer a:hover{text-decoration:underline;color:var(--text)} .footer .sp{flex:1}
-    @media (max-width:900px){h1{font-size:2.6rem}.hero,.split{grid-template-columns:1fr}.cards,.steps{grid-template-columns:1fr}.icons{grid-template-columns:repeat(4,1fr)}}
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f6f3;
+      --panel: #ffffff;
+      --text: #1f231f;
+      --muted: #62706a;
+      --line: rgba(0,0,0,.08);
+      --accent: #1f9d57;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101411;
+        --panel: #19201b;
+        --text: #f1f4f0;
+        --muted: #9fb0a6;
+        --line: rgba(255,255,255,.08);
+        --accent: #43c07e;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.04);
+    }
+    .brand-row { display: inline-flex; align-items: center; gap: 10px; margin: 0 0 16px; text-decoration: none; }
+    .brand-row .name { font-weight: 700; font-size: 1.02rem; color: var(--text); }
+    .meta a { color: var(--muted); } .meta a:hover { color: var(--text); }
+    h1 { margin: 0 0 8px; font-size: 2rem; line-height: 1.1; letter-spacing: -.03em; }
+    .subtitle { margin: 0 0 28px; color: var(--muted); font-size: 1rem; }
+    h2 { margin: 28px 0 12px; font-size: 1.1rem; }
+    p, li { margin: 0 0 12px; }
+    ul { margin: 0; padding-left: 20px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .95rem; }
+    .email { font-weight: 600; color: var(--text); word-break: break-word; }
   </style>
 </head>
 <body>
-  <div class="frame">
-
-    <!-- HERO -->
-    <section class="section hero">
-      <div>
-        <div class="brand-row">
-          <svg viewBox="0 0 100 100" width="32" height="32" aria-hidden="true">
-            <path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#2E8659" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
-            <path d="M64 24 L64 2" fill="none" stroke="#2E8659" stroke-width="6" stroke-linecap="round"/>
-            <path d="M64 2 L86 10 L64 18 Z" fill="#E64036"/>
-          </svg>
-          <span class="name">MountainBucks</span>
-        </div>
-        <h1>Climb your year.</h1>
-        <p class="lead">Your money becomes a mountain to climb. See your real balance as blocks, build a peak with every saving, and reach your goals — month after month. Private by design: your data stays in your iCloud.</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="https://apps.apple.com/app/id6780041368">Download on the App Store</a>
-          <a class="btn btn-secondary" href="support/">Get support</a>
-        </div>
-        <div class="tags"><span><b>●</b> Private</span><span><b>●</b> iCloud sync</span><span><b>●</b> No ads</span><span><b>●</b> No account</span></div>
-      </div>
-
-      <!-- App screen: the mountain -->
-      <svg class="phone" viewBox="0 0 250 470" aria-hidden="true">
-        <defs>
-          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050721"/><stop offset="0.4" stop-color="#1A2461"/><stop offset="0.72" stop-color="#5C8FDB"/><stop offset="1" stop-color="#C2DEF7"/></linearGradient>
-          <linearGradient id="mtn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#43c07e"/><stop offset="1" stop-color="#155739"/></linearGradient>
-          <clipPath id="scr"><rect x="11" y="11" width="228" height="448" rx="30"/></clipPath>
-        </defs>
-        <rect x="0" y="0" width="250" height="470" rx="40" fill="#0E1A33"/>
-        <g clip-path="url(#scr)">
-          <rect x="11" y="11" width="228" height="448" fill="url(#sky)"/>
-          <path d="M11 459 L11 286 L66 196 L102 240 L150 140 L200 224 L239 286 L239 459 Z" fill="url(#mtn)"/>
-          <path d="M150 140 L131 165 L169 165 Z" fill="#FFFFFF" opacity="0.95"/>
-          <path d="M150 140 L150 112" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
-          <path d="M150 112 L172 119 L150 126 Z" fill="#E64036"/>
-          <path d="M44 442 Q78 332 110 318 Q146 302 128 256 Q114 218 150 188 Q150 168 150 150" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.92"/>
-          <circle cx="110" cy="318" r="3.6" fill="#FFFFFF"/><circle cx="128" cy="256" r="3.6" fill="#FFFFFF"/><circle cx="150" cy="188" r="3.6" fill="#FFD23F"/>
-          <text x="84" y="332" font-size="10" fill="#FFFFFF" opacity="0.9" font-family="ui-rounded, -apple-system, sans-serif">Mar</text>
-          <text x="92" y="248" font-size="10" fill="#FFFFFF" opacity="0.9" font-family="ui-rounded, -apple-system, sans-serif">Jun</text>
-          <text x="40" y="440" font-size="15">⛺</text>
-          <rect x="26" y="30" width="150" height="24" rx="12" fill="#FFFFFF" opacity="0.16"/>
-          <text x="40" y="46" font-size="11" fill="#FFFFFF" font-family="ui-rounded, -apple-system, sans-serif">Private • iCloud • No ads</text>
-          <text x="26" y="80" font-size="11" fill="#FFFFFF" opacity="0.85" font-family="ui-rounded, -apple-system, sans-serif">Total balance</text>
-          <text x="26" y="106" font-size="25" font-weight="700" fill="#FFFFFF" font-family="ui-rounded, -apple-system, sans-serif">€ 11,330</text>
-          <g font-family="ui-rounded, -apple-system, sans-serif">
-            <rect x="22" y="392" width="206" height="54" rx="14" fill="#FFFFFF" opacity="0.94"/>
-            <text x="36" y="416" font-size="11.5" fill="#173326">Still living off January's money</text>
-            <text x="36" y="434" font-size="11.5" font-weight="600" fill="#1F9D57">5-month buffer · health 100/100</text>
-          </g>
-        </g>
-      </svg>
-    </section>
-
-    <!-- HOW IT WORKS -->
-    <section class="section">
-      <p class="eyebrow">How it works</p>
-      <h2>Three taps to clarity</h2>
-      <p class="section-lead">No spreadsheets, no jargon. Add what comes in and goes out — MountainBucks does the rest.</p>
-      <div class="steps">
-        <div class="step"><div class="num">1</div><h3>Log it</h3><p>Income and expenses in a tap — or set your salary and bills to repeat automatically.</p></div>
-        <div class="step"><div class="num">2</div><h3>See it</h3><p>Your balance becomes monthly blocks and a mountain that grows every month you save.</p></div>
-        <div class="step"><div class="num">3</div><h3>Climb it</h3><p>Set goals as summits and watch yourself reach them, one green month at a time.</p></div>
-      </div>
-    </section>
-
-    <!-- THE MOUNTAIN (signature) -->
-    <section class="section">
-      <div class="split">
-        <div>
-          <p class="eyebrow">Your year, visualized</p>
-          <h2>Your money is a mountain</h2>
-          <p class="section-lead">Every month you save lifts the peak higher. Every goal is a summit with a flag. It's the clearest picture of progress you'll ever get from your finances.</p>
-          <ul class="legend">
-            <li><span class="dot" style="background:#43c07e"></span><span><b>Green months</b>You saved — the mountain grows toward the sky.</span></li>
-            <li><span class="dot" style="background:#e64036"></span><span><b>Red months</b>You spent more than you earned — a crevasse to climb back from.</span></li>
-            <li><span class="dot" style="background:#FFD23F"></span><span><b>Summits</b>Your goals. Plant a flag and the app tells you when you'll reach it.</span></li>
-          </ul>
-        </div>
-        <svg viewBox="0 0 460 320" aria-hidden="true" style="width:100%;height:auto">
-          <defs>
-            <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E2150"/><stop offset="0.7" stop-color="#5C8FDB"/><stop offset="1" stop-color="#CFE3F8"/></linearGradient>
-            <linearGradient id="mtn2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#43c07e"/><stop offset="1" stop-color="#155739"/></linearGradient>
-          </defs>
-          <rect x="0" y="0" width="460" height="320" rx="22" fill="url(#sky2)"/>
-          <path d="M0 320 L0 210 L90 150 L150 188 L250 96 L340 168 L460 220 L460 320 Z" fill="url(#mtn2)"/>
-          <path d="M250 96 L226 128 L274 128 Z" fill="#FFFFFF" opacity="0.95"/>
-          <path d="M250 96 L250 60" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
-          <path d="M250 60 L284 70 L250 80 Z" fill="#E64036"/>
-          <path d="M40 300 Q120 250 160 250 Q230 250 200 196 Q176 152 250 116" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round" opacity="0.9"/>
-          <circle cx="160" cy="250" r="5" fill="#43c07e" stroke="#fff" stroke-width="1.5"/>
-          <circle cx="200" cy="196" r="5" fill="#e64036" stroke="#fff" stroke-width="1.5"/>
-          <circle cx="250" cy="116" r="5" fill="#FFD23F" stroke="#fff" stroke-width="1.5"/>
-          <text x="36" y="296" font-size="20">⛺</text>
+  <main>
+    <div class="card">
+      <a class="brand-row" href="../">
+        <svg viewBox="0 0 100 100" width="32" height="32" aria-hidden="true">
+          <path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#2E8659" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+          <path d="M64 24 L64 2" fill="none" stroke="#2E8659" stroke-width="6" stroke-linecap="round"/>
+          <path d="M64 2 L86 10 L64 18 Z" fill="#E64036"/>
         </svg>
+        <span class="name">MountainBucks</span>
+      </a>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Privacy, data use, and useful information about MountainBucks.</p>
+
+      <p>MountainBucks is built privacy-first. It is a personal-finance app, and your financial data lives in <strong>your own iCloud account</strong> — it is never uploaded to or stored on our servers.</p>
+      <p>This Privacy Policy explains what information is collected, how it is used, and what choices you have.</p>
+
+      <h2>Information We Collect</h2>
+      <p>MountainBucks collects minimal, anonymous usage data through TelemetryDeck, a privacy-first analytics service. This data includes:</p>
+      <ul>
+        <li>App features used (e.g. a movement added, a goal created)</li>
+        <li>Device type, OS version, and app version</li>
+        <li>General, aggregated usage patterns</li>
+      </ul>
+      <p>This data is fully anonymised — it cannot be traced back to you as an individual. TelemetryDeck does not use cookies, does not track you across apps, and is fully GDPR compliant.</p>
+      <p>You can learn more about TelemetryDeck's privacy approach at <a href="https://telemetrydeck.com/privacy" target="_blank" rel="noopener noreferrer">telemetrydeck.com/privacy</a>.</p>
+
+      <h2>Your Financial Data</h2>
+      <p>Everything you enter — income, expenses, balances, goals, investments — is stored on your device and synced through <strong>your private iCloud (Apple CloudKit)</strong>. MountainBucks:</p>
+      <ul>
+        <li>Does not send your financial data to any server we control</li>
+        <li>Cannot read or access your data — it stays in your Apple account</li>
+        <li>Does not share your data with third parties or advertisers</li>
+      </ul>
+
+      <h2>Shared Expenses &amp; Family</h2>
+      <p>Shared expense groups and Family features use <strong>Apple's iCloud Sharing</strong>: data is shared only between you and the people you explicitly invite, entirely within iCloud. We never see this data, and nothing passes through our servers.</p>
+
+      <h2>Family Mode &amp; Children</h2>
+      <p>You can create profiles for the members of your own family (name, avatar, piggy-bank balance). This information is stored only in your iCloud and is not collected by us. Family features are intended to be set up and managed by a parent; MountainBucks is not directed at children under 13 for independent use.</p>
+
+      <h2>Subscriptions &amp; Purchases</h2>
+      <p>MountainBucks offers optional auto-renewable subscriptions to unlock premium features. All payments are processed securely by Apple through the App Store. We do not collect or store any payment information.</p>
+      <p>Subscription management is handled entirely through your Apple ID settings.</p>
+
+      <h2>Data Retention</h2>
+      <p>Anonymous analytics data collected via TelemetryDeck is retained for a maximum of 12 months, after which it is automatically deleted.</p>
+      <p>No personal data is retained because no personal data is collected.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date. We encourage you to review this page periodically.</p>
+
+      <h2>Contact</h2>
+      <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+      <p class="email"><a href="mailto:mountainbucks@icloud.com">mountainbucks@icloud.com</a></p>
+
+      <div class="meta">
+        <p>© 2026 Vincenzo Famao · MountainBucks</p>
+        <p><a href="../">Home</a> · <a href="../support/">Support</a> · <a href="https://apps.apple.com/app/id6780041368">App Store</a></p>
       </div>
-    </section>
-
-    <!-- FEATURES 1 -->
-    <section class="section">
-      <h2>See your money clearly</h2>
-      <p class="section-lead">MountainBucks shows where you really stand — a picture that changes with you.</p>
-      <div class="cards">
-        <div class="feat"><div class="ico">🧱</div><h3>Balance as blocks</h3><p>A simple FIFO view shows which month's income you're actually living on — and how much buffer you have left.</p></div>
-        <div class="feat"><div class="ico">⛰️</div><h3>Your year as a mountain</h3><p>Every saving builds the peak higher. Set goals as summits and climb toward them, month after month.</p></div>
-        <div class="feat"><div class="ico">❤️</div><h3>Health score &amp; lessons</h3><p>A friendly 0–100 read on how you're doing, plus bite-size lessons that explain the why.</p></div>
-      </div>
-    </section>
-
-    <!-- FEATURES 2 -->
-    <section class="section">
-      <h2>Do more, plan ahead</h2>
-      <p class="section-lead">From splitting a dinner to projecting next year, MountainBucks grows with you — and keeps everything private.</p>
-      <div class="cards">
-        <div class="feat"><div class="ico">👥</div><h3>Shared expenses</h3><p>Create a common pot, invite friends, split costs in a tap — synced through iCloud.</p></div>
-        <div class="feat"><div class="ico">👨‍👩‍👧</div><h3>Family mode</h3><p>Kids' profiles, piggy bank and allowance, with tasks they complete to earn.</p></div>
-        <div class="feat"><div class="ico">📈</div><h3>Stocks &amp; vault</h3><p>Follow companies on a watchlist and track your investments next to your savings.</p></div>
-        <div class="feat"><div class="ico">🔮</div><h3>"What if…" scenarios</h3><p>Project the mountain of your future: more saving, fewer expenses, better returns.</p></div>
-        <div class="feat"><div class="ico">🔁</div><h3>On autopilot</h3><p>Set salary and recurring bills once — the app logs them for you, every month.</p></div>
-        <div class="feat"><div class="ico">🏅</div><h3>Levels &amp; seasons</h3><p>Earn XP, climb levels and close green months. Money, but a little more fun.</p></div>
-      </div>
-    </section>
-
-    <!-- MAKE IT YOURS (icons) -->
-    <section class="section">
-      <p class="eyebrow">Make it yours</p>
-      <h2>An icon for every mood</h2>
-      <p class="section-lead">Same mountain, your style. Pick from a growing set of app icons — a little perk for Premium climbers.</p>
-      <div class="icons">
-        <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#081130"/><stop offset="1" stop-color="#5C8FDB"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i1)"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#E64036"/></g></svg><figcaption>Classic</figcaption></figure>
-        <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1A1110"/><stop offset="0.6" stop-color="#7A1B0C"/><stop offset="1" stop-color="#EA5410"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i2)"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#FFB020"/></g></svg><figcaption>Volcano</figcaption></figure>
-        <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A0420"/><stop offset="0.5" stop-color="#241050"/><stop offset="1" stop-color="#070210"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i3)"/><circle cx="20" cy="22" r="1.5" fill="#fff"/><circle cx="82" cy="18" r="1.2" fill="#fff"/><circle cx="78" cy="84" r="1.4" fill="#fff"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#E64036"/></g></svg><figcaption>Galaxy</figcaption></figure>
-        <figure><svg viewBox="0 0 100 100"><clipPath id="ic4"><rect width="100" height="100" rx="22"/></clipPath><rect width="100" height="100" rx="22" fill="#15244E"/><g clip-path="url(#ic4)" stroke="#fff" stroke-width="0.8" opacity="0.14"><path d="M14 0 V100 M28 0 V100 M42 0 V100 M56 0 V100 M70 0 V100 M84 0 V100 M0 14 H100 M0 28 H100 M0 42 H100 M0 56 H100 M0 70 H100 M0 84 H100"/></g><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#CFE8FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#CFE8FF" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#FF5A4D"/></g></svg><figcaption>Blueprint</figcaption></figure>
-        <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E5C5A"/><stop offset="1" stop-color="#FF6B5B"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i5)"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#0E3B3A"/></g></svg><figcaption>Duotone</figcaption></figure>
-        <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8D778"/><stop offset="1" stop-color="#C2901A"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i6)"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#3A2A06" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#3A2A06" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#B0271A"/></g></svg><figcaption>Gold</figcaption></figure>
-        <figure><svg viewBox="0 0 100 100"><rect width="100" height="100" rx="22" fill="#0B0B14"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#1FF0DC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#1FF0DC" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#FF2BD6"/></g></svg><figcaption>Neon</figcaption></figure>
-        <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE3D3"/><stop offset="1" stop-color="#FFC2A0"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i8)"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#B5532E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#B5532E" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#C0392B"/></g></svg><figcaption>Peach</figcaption></figure>
-      </div>
-    </section>
-
-    <!-- PRIVACY -->
-    <section class="section privacy">
-      <div class="split">
-        <div>
-          <p class="eyebrow">Private by design</p>
-          <h2>Your data stays yours</h2>
-          <p class="section-lead">MountainBucks has no account and no servers holding your finances. Everything lives in <b>your</b> iCloud, synced across your devices. Analytics are anonymous, and there are no ads — ever.</p>
-        </div>
-        <ul class="legend">
-          <li><span class="dot" style="background:var(--accent)"></span><span><b>No account</b>Open the app and start — nothing to sign up for.</span></li>
-          <li><span class="dot" style="background:var(--accent)"></span><span><b>Your iCloud</b>Your data is stored and synced in your private iCloud, not ours.</span></li>
-          <li><span class="dot" style="background:var(--accent)"></span><span><b>No ads, no tracking</b>We make money from Premium, not from you.</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="section">
-      <h2>Questions</h2>
-      <div class="faq" style="margin-top:18px">
-        <details><summary>Is it free?</summary><p>Yes. The core — blocks, the mountain, goals, your health score — is free. Premium unlocks autopilot recurring entries, the full forecast and "What if…" scenarios, shared groups, family mode, extra app icons and more.</p></details>
-        <details><summary>Where is my data stored?</summary><p>In your own iCloud. There's no account and no MountainBucks server holding your finances. It syncs automatically across your iPhone and iPad.</p></details>
-        <details><summary>Does it connect to my bank?</summary><p>No. You add what comes in and goes out (or set it to repeat) — by design, so nothing leaves your control and there's nothing to breach.</p></details>
-        <details><summary>What does "balance as blocks" mean?</summary><p>Each month's income is a block. Spending eats the oldest block first (FIFO), so you can see exactly which month's money you're living on and how much buffer remains.</p></details>
-        <details><summary>Which devices does it support?</summary><p>iPhone and iPad. Add anything offline; it syncs through your iCloud when you're back online.</p></details>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="section cta-band">
-      <h2>Start climbing today</h2>
-      <p>Turn this year's money into a mountain worth reaching the top of.</p>
-      <a class="btn btn-primary" href="https://apps.apple.com/app/id6780041368">Download on the App Store</a>
-    </section>
-
-    <div class="footer">
-      <svg viewBox="0 0 100 100" width="22" height="22" aria-hidden="true">
-        <path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#2E8659" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
-        <path d="M64 24 L64 2" fill="none" stroke="#2E8659" stroke-width="6" stroke-linecap="round"/>
-        <path d="M64 2 L86 10 L64 18 Z" fill="#E64036"/>
-      </svg>
-      <span>© 2026 MountainBucks</span>
-      <span class="sp"></span>
-      <a href="support/">Support</a>
-      <a href="privacy/">Privacy Policy</a>
-      <a href="https://apps.apple.com/app/id6780041368">App Store</a>
     </div>
-  </div>
+  </main>
 </body>
 </html>

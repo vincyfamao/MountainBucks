@@ -39,8 +39,9 @@
       padding: 24px;
       box-shadow: 0 8px 24px rgba(0,0,0,.04);
     }
-    .brand-row { display: flex; align-items: center; gap: 10px; margin: 0 0 16px; }
-    .brand-row .name { font-weight: 600; font-size: .98rem; color: var(--muted); }
+    .brand-row { display: inline-flex; align-items: center; gap: 10px; margin: 0 0 16px; text-decoration: none; }
+    .brand-row .name { font-weight: 700; font-size: 1.02rem; color: var(--text); }
+    .meta a { color: var(--muted); } .meta a:hover { color: var(--text); }
     h1 { margin: 0 0 8px; font-size: 2rem; line-height: 1.1; letter-spacing: -.03em; }
     .subtitle { margin: 0 0 28px; color: var(--muted); font-size: 1rem; }
     h2 { margin: 28px 0 12px; font-size: 1.1rem; }
@@ -55,14 +56,14 @@
 <body>
   <main>
     <div class="card">
-      <div class="brand-row">
+      <a class="brand-row" href="../">
         <svg viewBox="0 0 100 100" width="32" height="32" aria-hidden="true">
-          <path d="M2 96 L26 46 L40 66 L64 24 L98 96" fill="none" stroke="#2E8659" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
-          <path d="M64 24 L64 4" fill="none" stroke="#2E8659" stroke-width="6" stroke-linecap="round"/>
-          <path d="M64 4 L86 11 L64 18 Z" fill="#E5463C"/>
+          <path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#2E8659" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+          <path d="M64 24 L64 2" fill="none" stroke="#2E8659" stroke-width="6" stroke-linecap="round"/>
+          <path d="M64 2 L86 10 L64 18 Z" fill="#E64036"/>
         </svg>
         <span class="name">MountainBucks</span>
-      </div>
+      </a>
       <h1>Privacy Policy</h1>
       <p class="subtitle">Privacy, data use, and useful information about MountainBucks.</p>
 
@@ -110,6 +111,7 @@
 
       <div class="meta">
         <p>© 2026 Vincenzo Famao · MountainBucks</p>
+        <p><a href="../">Home</a> · <a href="../support/">Support</a> · <a href="https://apps.apple.com/app/id6780041368">App Store</a></p>
       </div>
     </div>
   </main>
