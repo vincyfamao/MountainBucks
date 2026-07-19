@@ -22,7 +22,8 @@
     .btn-primary{background:var(--accent);color:#fff} .btn-secondary{background:transparent;border-color:var(--line);color:var(--text)}
     .tags{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;color:var(--muted);font-size:.92rem}
     .tags b{color:var(--accent)}
-    .phone{margin:0 auto;display:block;max-width:300px;width:100%;filter:drop-shadow(0 18px 40px rgba(0,0,0,.18))}
+    .phone{margin:0 auto;display:block;max-width:300px;width:100%;border-radius:38px;filter:drop-shadow(0 18px 40px rgba(0,0,0,.18))}
+    .mountain-shot{display:block;width:100%;max-width:420px;margin:0 auto;border-radius:22px;box-shadow:0 18px 42px rgba(0,0,0,.16)}
     h2{margin:0 0 8px;font-size:2.1rem;letter-spacing:-.03em} .section-lead{margin:0 0 22px;color:var(--muted);max-width:64ch;font-size:1.05rem}
     .eyebrow{color:var(--accent);font-weight:700;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;margin:0 0 10px}
     .cards{display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -76,36 +77,7 @@
         <div class="tags"><span><b>●</b> Private</span><span><b>●</b> iCloud sync</span><span><b>●</b> No ads</span><span><b>●</b> No account</span></div>
       </div>
 
-      <!-- App screen: the mountain -->
-      <svg class="phone" viewBox="0 0 250 470" aria-hidden="true">
-        <defs>
-          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050721"/><stop offset="0.4" stop-color="#1A2461"/><stop offset="0.72" stop-color="#5C8FDB"/><stop offset="1" stop-color="#C2DEF7"/></linearGradient>
-          <linearGradient id="mtn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#43c07e"/><stop offset="1" stop-color="#155739"/></linearGradient>
-          <clipPath id="scr"><rect x="11" y="11" width="228" height="448" rx="30"/></clipPath>
-        </defs>
-        <rect x="0" y="0" width="250" height="470" rx="40" fill="#0E1A33"/>
-        <g clip-path="url(#scr)">
-          <rect x="11" y="11" width="228" height="448" fill="url(#sky)"/>
-          <path d="M11 459 L11 286 L66 196 L102 240 L150 140 L200 224 L239 286 L239 459 Z" fill="url(#mtn)"/>
-          <path d="M150 140 L137 166 L164 166 Z" fill="#FFFFFF" opacity="0.95"/>
-          <path d="M150 140 L150 112" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
-          <path d="M150 112 L172 119 L150 126 Z" fill="#E64036"/>
-          <path d="M44 442 Q78 332 110 318 Q146 302 128 256 Q114 218 150 188 Q150 168 150 150" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.92"/>
-          <circle cx="110" cy="318" r="3.6" fill="#FFFFFF"/><circle cx="128" cy="256" r="3.6" fill="#FFFFFF"/><circle cx="150" cy="188" r="3.6" fill="#FFD23F"/>
-          <text x="84" y="332" font-size="10" fill="#FFFFFF" opacity="0.9" font-family="ui-rounded, -apple-system, sans-serif">Mar</text>
-          <text x="92" y="248" font-size="10" fill="#FFFFFF" opacity="0.9" font-family="ui-rounded, -apple-system, sans-serif">Jun</text>
-          <text x="40" y="440" font-size="15">⛺</text>
-          <rect x="26" y="30" width="150" height="24" rx="12" fill="#FFFFFF" opacity="0.16"/>
-          <text x="40" y="46" font-size="11" fill="#FFFFFF" font-family="ui-rounded, -apple-system, sans-serif">Private • iCloud • No ads</text>
-          <text x="26" y="80" font-size="11" fill="#FFFFFF" opacity="0.85" font-family="ui-rounded, -apple-system, sans-serif">Total balance</text>
-          <text x="26" y="106" font-size="25" font-weight="700" fill="#FFFFFF" font-family="ui-rounded, -apple-system, sans-serif">€ 11,330</text>
-          <g font-family="ui-rounded, -apple-system, sans-serif">
-            <rect x="22" y="392" width="206" height="54" rx="14" fill="#FFFFFF" opacity="0.94"/>
-            <text x="36" y="416" font-size="11.5" fill="#173326">Still living off January's money</text>
-            <text x="36" y="434" font-size="11.5" font-weight="600" fill="#1F9D57">5-month buffer · health 100/100</text>
-          </g>
-        </g>
-      </svg>
+      <img class="phone" src="app-blocks.png" alt="MountainBucks Blocks screen showing a total balance, monthly buffer and health score">
     </section>
 
     <!-- HOW IT WORKS -->
@@ -133,22 +105,7 @@
             <li><span class="dot" style="background:#FFD23F"></span><span><b>Summits</b>Your goals. Plant a flag and the app tells you when you'll reach it.</span></li>
           </ul>
         </div>
-        <svg viewBox="0 0 460 320" aria-hidden="true" style="width:100%;height:auto">
-          <defs>
-            <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E2150"/><stop offset="0.7" stop-color="#5C8FDB"/><stop offset="1" stop-color="#CFE3F8"/></linearGradient>
-            <linearGradient id="mtn2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#43c07e"/><stop offset="1" stop-color="#155739"/></linearGradient>
-          </defs>
-          <rect x="0" y="0" width="460" height="320" rx="22" fill="url(#sky2)"/>
-          <path d="M0 320 L0 210 L90 150 L150 188 L250 96 L340 168 L460 220 L460 320 Z" fill="url(#mtn2)"/>
-          <path d="M250 96 L222 126 L286 126 Z" fill="#FFFFFF" opacity="0.95"/>
-          <path d="M250 96 L250 60" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
-          <path d="M250 60 L284 70 L250 80 Z" fill="#E64036"/>
-          <path d="M40 300 Q120 250 160 250 Q230 250 200 196 Q176 152 250 116" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round" opacity="0.9"/>
-          <circle cx="160" cy="250" r="5" fill="#43c07e" stroke="#fff" stroke-width="1.5"/>
-          <circle cx="200" cy="196" r="5" fill="#e64036" stroke="#fff" stroke-width="1.5"/>
-          <circle cx="250" cy="116" r="5" fill="#FFD23F" stroke="#fff" stroke-width="1.5"/>
-          <text x="36" y="296" font-size="20">⛺</text>
-        </svg>
+        <img class="mountain-shot" src="app-mountain.png" alt="MountainBucks Mountain screen showing a completed goal and the yearly climbing path">
       </div>
     </section>
 
@@ -186,7 +143,6 @@
         <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#081130"/><stop offset="1" stop-color="#5C8FDB"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i1)"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#E64036"/></g></svg><figcaption>Classic</figcaption></figure>
         <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1A1110"/><stop offset="0.6" stop-color="#7A1B0C"/><stop offset="1" stop-color="#EA5410"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i2)"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#FFB020"/></g></svg><figcaption>Volcano</figcaption></figure>
         <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A0420"/><stop offset="0.5" stop-color="#241050"/><stop offset="1" stop-color="#070210"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i3)"/><circle cx="20" cy="22" r="1.5" fill="#fff"/><circle cx="82" cy="18" r="1.2" fill="#fff"/><circle cx="78" cy="84" r="1.4" fill="#fff"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#E64036"/></g></svg><figcaption>Galaxy</figcaption></figure>
-        <figure><svg viewBox="0 0 100 100"><clipPath id="ic4"><rect width="100" height="100" rx="22"/></clipPath><rect width="100" height="100" rx="22" fill="#15244E"/><g clip-path="url(#ic4)" stroke="#fff" stroke-width="0.8" opacity="0.14"><path d="M14 0 V100 M28 0 V100 M42 0 V100 M56 0 V100 M70 0 V100 M84 0 V100 M0 14 H100 M0 28 H100 M0 42 H100 M0 56 H100 M0 70 H100 M0 84 H100"/></g><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#CFE8FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#CFE8FF" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#FF5A4D"/></g></svg><figcaption>Blueprint</figcaption></figure>
         <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E5C5A"/><stop offset="1" stop-color="#FF6B5B"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i5)"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#0E3B3A"/></g></svg><figcaption>Duotone</figcaption></figure>
         <figure><svg viewBox="0 0 100 100"><defs><linearGradient id="i6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8D778"/><stop offset="1" stop-color="#C2901A"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#i6)"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#3A2A06" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#3A2A06" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#B0271A"/></g></svg><figcaption>Gold</figcaption></figure>
         <figure><svg viewBox="0 0 100 100"><rect width="100" height="100" rx="22" fill="#0B0B14"/><g transform="translate(14,14) scale(0.72)"><path d="M0 100 L26 46 L40 66 L64 24 L100 100" fill="none" stroke="#1FF0DC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 24 L64 2" fill="none" stroke="#1FF0DC" stroke-width="5.2" stroke-linecap="round"/><path d="M64 2 L86 10 L64 18 Z" fill="#FF2BD6"/></g></svg><figcaption>Neon</figcaption></figure>
